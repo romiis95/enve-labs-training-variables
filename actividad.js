@@ -1,7 +1,7 @@
 //1- variables y tipos de datos
 
-let nombre = "Romina";
-let edad = "28";
+console.log(nombre = "Romina");
+console.log (edad = ("28"));
 
 console.log("Mi nombre es: " + nombre);
 console.log("Mi edad es: " + edad);
@@ -10,124 +10,120 @@ let esMayorDeEdad = parseInt(edad) >= 18;
 
 console.log("¿Es mayor de edad? " + esMayorDeEdad);
 
-edad = 28
-año-de-nacimiento + datetime.dato.año().año -edad
+let añoDeNacimiento = new Date().getFullYear() - parseInt(edad);
 
-console.log("tu año de nacimiento es:", año-de-nacimiento);
+console.log("Tu año de nacimiento es: " + añoDeNacimiento)
 
-//2- operadores arimetricos
+//2- operaciones arimetricos 
 
-//Asigna los números a las variables
-num1 = 10
-num2 = 3
+//asigna los numeros a las variables
+let.num1 = 10;
+let.num2 = 3;
 
-//Calcula la suma
-suma = num1 + num2
+//calcula la suma 
+let suma = num1 + num2;
 
-//Calcula la resta
-resta = num1 - num2
+//calcula la resta
+let resta = num1 - num2;
 
-//Calcula la multiplicación
-multiplicacion = num1 * num2
+//calcula la multiplicacion 
+let multiplicacion = num1 * num2;
 
-//Calcula la división
-division = num1 / num2
+//calcula la divivion
+let division = num1 / num2;
 
-//Calcula el módulo
-modulo = num1 % num2
+//calcula el modulo
+let modulo = num1 % num2;
 
-//muestra los resultados
-print("Suma:", suma)
-print("Resta:", resta)
-print("Multiplicación:", multiplicacion)
-print("División:", division)
-print("Módulo:", modulo)
+//muestra los resultados 
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
+console.log("Módulo:", modulo);
 
-//Asigna los números a las variables
-num1 = 10
-num2 = 3
+//asigna los numeros a las variables
+num1 = 10;
+num2 = 3;
 
-//Incrementa en uno el valor de num1
-num1 += 1
+//incrementa en uno el valor de num1
+num1 += 1;
 
-//Decrementa en uno el valor de num2
-num2 -= 1
+//decrementa en uno el valor de num2
+num2 -= 1;
 
-//muestra los valores actualizados
-print("num1 incrementado:", num1)
-print("num2 decrementado:", num2)
+//muestra los valores actualizados 
+console.log("num1 incrementado:", num1);
+console.log("num2 decrementado:", num2);
 
-//3- operadores de comparacion
+//asigna los numeros a las variables
+let num1 = 10;
+let num2 = 10;
 
-//Asigna los números a las variables
-num1 = 10
-num2 = 10
+num1 = 10;
+num2 = 5;
 
-//Asigna los números a las variables
-num1 = 10
-num2 = 5
+//comprueba si num1 es menor que num2
+if (num1 >= num2) {
+  console.log("num1 es mayor o igual que num2");
+}
+//comprueba si num1 es menor que num2
+if (num1 < num2) {
+  console.log("num1 es menor que num2");
+}
+//comprueba si num1 es mayor o igual que num2
+if (num1 >= num2) {
+  console.log("num1 es mayor o igual que num2");
+}
+//comprueba si num1 es menor que o igual que num2
+if (num1 <= num2) {
+  console.log("num1 es menor o igual que num2");
+}
 
-//Comprueba si num1 es mayor que num2
-if (num1 >= num2)
-print("num1 es mayor que num2")
+//asigna la variable 
+let edad = 15;
+let esAdolescente = 13 <= edad && edad <= 19;
 
-//Comprueba si num1 es menor que num2
-if (num1 < num2)
-print("num1 es menor que num2")
+//comprueba si la edad esta adentro del rango de adolecencia
+if (esAdolescente) {
+  console.log("La persona es adolescente");
+} else {
+  console.log("La persona no es adolescente");
+}
 
-//Comprueba si num1 es mayor o igual que num2
-if (num1 >= num2)
-print("num1 es mayor o igual que num2")
+//asigna la edad de la variable 
+edad = 70;
 
-//Comprueba si num1 es menor o igual que num2
-if (num1 <= num2)
-print("num1 es menor o igual que num2")
+//comrueba si la edad es menor que 13 o mayor que 65
+let esNinoOJubilado = edad < 13 || edad > 65;
 
+//inprime resultado 
+if (esNinoOJubilado) {
+  console.log("La persona es un niño o jubilado");
+} else {
+  console.log("La persona no es un niño ni jubilado");
+}
 
-//Asigna la edad a la variable
-edad = 15
-
-//Comprueba si la edad está dentro del rango de adolescencia
-esAdolescente = 13 <= edad <= 19
-
-//Imprime el resultado
-if (esAdolescente >=19)
-print("La persona es adolescente")
-else 
-
-print("La persona no es adolescente")
-
-
-//Asigna la edad a la variable
-    edad = 70
-    
-//Comprueba si la edad es menor que 13 o mayor que 65
-    esNinoOJubilado = edad < 13 > 65
-    
-//Imprime el resultado
-if (esNinoOJubilado)
-print("La persona es un niño o jubilado")
-else
-print("La persona no es un niño ni jubilado")
-    
-//Supongamos que la variable esMayorDeEdad tiene el valor booleano verdadero (True)
-esMayorDeEdad = True
+//supongamos que la variable es mayordeedad tiene el valo booleano vervadero(tue)
+let (esMayorDeEdad) = true;
 
 //Comprueba si esMayorDeEdad es verdadero o falso
-if (esMayorDeEdad)
-    print("Puedes votar")
-else
-    print("No puedes votar")
+if (esMayorDeEdad) {
+  console.log("Puedes votar");
+} else {
+  console.log("No puedes votar");
+}
 
+//Asigna el puntaje a la variable
+let puntaje = 75;
 
-    //Asigna el puntaje a la variable
-    puntaje = 75
-    
-    //Verifica el puntaje y muestra el mensaje correspondiente
-    if (puntaje < 60)
-        print("Reprobado")
-    if (puntaje < 90)
-        print("Aprobado")
-    else
-        print("Excelente")
-    
+ //Verifica el puntaje y muestra el mensaje correspondiente
+if (puntaje < 60) {
+  console.log("Reprobado");
+}
+if (puntaje < 90) {
+  console.log("Aprobado");
+} else {
+  console.log("Excelente");
+}
+
